@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --corNavegacao: #1E1F22;
+    --corBotaoTitulos: #FFAE00;
+    --corCards: rgba(37, 37, 37, 0.8)
+}
+
+body{
+    background-image: url(imagens/bg.png);
+}
