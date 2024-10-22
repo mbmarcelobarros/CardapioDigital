@@ -7,9 +7,45 @@
 :root{
     --corNavegacao: #1E1F22;
     --corBotaoTitulos: #FFAE00;
-    --corCards: rgba(37, 37, 37, 0.8)
+    --corCards: rgba(37, 37, 37, 0.8);
+    --corTextos: #ffffff;
 }
 
 body{
     background-image: url(imagens/bg.png);
+    display: block;
+}
+
+header{
+    background-color: var(--corNavegacao);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--corTextos);
+    font-size: 20px;
+    margin: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+
+div{
+    background-color: var(--corCards);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
