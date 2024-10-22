@@ -41,11 +41,47 @@ section{
     padding: 25px;
 }
 
-
-
-div{
+.boxProduto{
     background-color: var(--corCards);
-    padding: 20px;
-    margin: 20px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    width: 890px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.boxTexto{
+    width: 400px;
+}
+
+h1, h2, h3, p, button{
+    margin: 15px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    color: var(--corBotaoTitulos);
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 250px;
+}
+
+.boxImagem{
+    width: 400px;
+}
+
+button{
+    background-color: var(--corBotaoTitulos);
+    width: 150px;
+    padding: 15px;
+    border: none;
     border-radius: 10px;
 }
