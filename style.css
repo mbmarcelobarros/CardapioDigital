@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
 }
 
 :root{
@@ -13,10 +14,11 @@
 
 body{
     background-image: url(imagens/bg.png);
-    display: block;
 }
 
 header{
+
+    /*
     background-color: var(--corNavegacao);
     padding: 20px;
     display: flex;
@@ -24,6 +26,7 @@ header{
     align-items: center;
     justify-content: center;
     padding: 25px;
+    */
 }
 
 a{
@@ -44,10 +47,11 @@ section{
 .boxProduto{
     background-color: var(--corCards);
     display: flex;
-    /*flex-wrap: wrap;*/
-    width: 890px;
+    flex-wrap: wrap;
+    max-width: 890px;
     align-items: center;
     border-radius: 10px;
+    margin: 15px 0px;
 }
 
 .boxTexto{
